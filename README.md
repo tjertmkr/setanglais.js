@@ -3,8 +3,6 @@ This repository is currently under development.
 
 # Samples
 ```ts
-import { Case, Formatter } from "./src";
-
 // Sample #1
 var test = new Case("helloWorld");
 console.log(test.to);
