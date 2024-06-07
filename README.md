@@ -1,5 +1,5 @@
-# setanglais.js
-This repository is currently under development.
+# word-format-converterc
+This library is used to change words beautifully.
 
 # Samples
 ```ts
