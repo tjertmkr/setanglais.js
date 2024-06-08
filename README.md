@@ -1,16 +1,17 @@
 # word-format-converterc
 This library is used to change words beautifully.
 
-# Samples
+# Usage
 ```ts
-// Sample #1
-var test = new Case("helloWorld");
-console.log(test.to);
+import { FormatterType, as, config } from "../src";
 
-// Sample #2
-var formatter: Formatter = new Formatter((text: string) => {
+// default
+console.log(as("helloWorld"));
+
+// config -> format
+const cf: FormatterType = (text: string) => {
     return text.toLowerCase();
-})
-var test2 = new Case("HELLO WORLD", formatter);
-console.log(test2.to);
+}
+config(cf);
+console.log(as("HELLOWORLD"))
 ```
