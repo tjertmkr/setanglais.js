@@ -6,12 +6,12 @@ This library is used to change words beautifully.
 import { FormatterType, as, config } from "../src";
 
 // default
-console.log(as("helloWorld"));
+console.log(as("helloWorld")); // Hello World
 
 // config -> format
 const cf: FormatterType = (text: string) => {
     return text.toLowerCase();
 }
 config(cf);
-console.log(as("HELLOWORLD"))
+console.log(as("HELLOWORLD")) // helloworld
 ```
