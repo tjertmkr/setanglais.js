@@ -1,0 +1,1 @@
+export type FormatterType = (text: string) => string;
