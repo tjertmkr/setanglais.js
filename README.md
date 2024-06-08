@@ -1,4 +1,4 @@
-# word-format-converterc
+# word-format-converter
 This library is used to change words beautifully.
 
 # Usage
