@@ -3,7 +3,7 @@ This library is used to change words beautifully.
 
 # Usage
 ```ts
-import { FormatterType, as, config } from "../src";
+import { FormatterType, as, config } from "index";
 
 // default
 console.log(as("helloWorld")); // Hello World
